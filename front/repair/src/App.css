@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el formulario de nuevo usuario */
+#newUserForm {
+  margin-top: 20px;
+}
+
+/* Estilos para el formulario de edición */
+.editForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los mensajes de error */
+.error {
+  color: #c0392b;
+  margin-top: 5px;
+}
